@@ -58,7 +58,8 @@ public class StreamingExampleActivity extends AppCompatActivity implements View.
 
         String appLinkAction = intent.getAction();
         Uri appLinkData = intent.getData();
-        Log.d("###############  ytdl url ",appLinkData.toString());
+        Log.d("#####  ytdl url ",appLinkData.toString());
+
         if (Intent.ACTION_VIEW.equals(appLinkAction) && appLinkData != null){
             etUrl.setText(appLinkData.toString());
             startStream(appLinkData.toString());
