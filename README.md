@@ -1,3 +1,8 @@
+# NOTES!
+This Fork is intended to be integrated into newpipe. The idea is that newpipe has to update the whole app when the youtube api changes. This awesome app just downloads the new version of youtube-dl. 
+I changed the package name of the app so that its as short as possible because i had some problems with android 5 (yes very old). In android 5 there are only certain length of file paths accepted which this app uses to run python.
+- changed package name
+- added app link support (copied from newpipe)
 # youtubedl-android
 Android library wrapper for [youtube-dl](https://github.com/rg3/youtube-dl) executable
 
